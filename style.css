@@ -1,0 +1,56 @@
+body {
+    background-color: #f0f0f0; /* Light gray background color */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+    max-width: 500px;
+    margin: 50px auto; /* Center the container horizontally */
+    
+    /* Glow effect for text inside container */
+    text-shadow: 0 0 5px rgba(0, 123, 255, 0.8); /* Adjust color and intensity as needed */
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.alert-danger {
+    background-color: #f8d7da; /* Alert background color */
+    color: #721c24; /* Alert text color */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
